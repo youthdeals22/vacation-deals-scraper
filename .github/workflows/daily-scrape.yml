@@ -1,1 +1,38 @@
+# .github/workflows/daily-scrape.yml
+name: Daily Vacation Deals Scraper
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Elke dag om 6:00 AM
+  workflow_dispatch:     # Handmatig triggeren
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # Stap 1: Get project code
+      - uses: actions/checkout@v3
+      
+      # Stap 2: Setup Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      # Stap 3: Install dependencies
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+      
+      # Stap 4: Run Robot A
+      - name: Run Robot A (List Scraper)
+        run: python src/scraper.py
+      
+      # Stap 5: Upload results
+      - name: Upload results
+        uses: actions/upload-artifact@v3
+        with:
+          name: scraper-results
+          path: data/
  
