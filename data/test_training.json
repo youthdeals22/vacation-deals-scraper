@@ -1,0 +1,23 @@
+{
+  "website": "test",
+  "timestamp": "2025-12-24T14:35:04.917922",
+  "clicks_count": 2,
+  "selectors_learned": 2,
+  "selectors": [
+    {
+      "text": "Toestemming\nDetails\nOver\nWe gebruiken cookies om je ervaring te verbeteren\n\nWij, en derde partijen, ",
+      "selectors": [
+        "body"
+      ],
+      "priority": 1
+    },
+    {
+      "text": "Alles toestaan",
+      "selectors": [
+        ".CybotCookiebotDialogBodyButton",
+        "#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll"
+      ],
+      "priority": 2
+    }
+  ]
+}

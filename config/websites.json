@@ -1,0 +1,57 @@
+ [
+  {
+    "id": 1,
+    "name": "Vakantiediscounter",
+    "url": "https://www.vakantiediscounter.nl/",
+    "description": "Dutch vacation deals website"
+  },
+  {
+    "id": 2,
+    "name": "D-Reizen",
+    "url": "https://www.d-reizen.nl/",
+    "description": "Popular Dutch travel site"
+  },
+  {
+    "id": 3,
+    "name": "Corendon",
+    "url": "https://www.corendon.nl/",
+    "description": "Travel deals from Corendon"
+  },
+  {
+    "id": 4,
+    "name": "Sunweb",
+    "url": "https://www.sunweb.nl/",
+    "description": "Sun and beach vacations"
+  },
+  {
+    "id": 5,
+    "name": "Hometogo",
+    "url": "https://www.hometogo.nl/",
+    "description": "Vacation rental deals"
+  },
+  {
+    "id": 6,
+    "name": "Holidu",
+    "url": "https://www.holidu.nl/",
+    "description": "Holiday apartment deals"
+  },
+  {
+    "id": 7,
+    "name": "VRBO",
+    "url": "https://www.vrbo.nl/",
+    "description": "Vacation rentals worldwide"
+  },
+  {
+    "id": 8,
+    "name": "Micazu",
+    "url": "https://www.micazu.nl/",
+    "description": "Travel deals aggregator"
+  },
+  {
+    "id": 9,
+    "name": "GoFun",
+    "url": "https://www.gofun.nl/",
+    "description": "Budget travel deals"
+  }
+]
+

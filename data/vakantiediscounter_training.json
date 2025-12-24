@@ -1,0 +1,16 @@
+{
+  "website": "vakantiediscounter",
+  "timestamp": "2025-12-24T14:42:25.343841",
+  "clicks_count": 1,
+  "selectors_learned": 1,
+  "selectors": [
+    {
+      "text": "Horizon Aparthotel\nTurkije, Turkse Rivièra, Alanya\nZwembad buiten\nKinderzwembad\nSpeeltuin\nAirco\nToon",
+      "selectors": [
+        ".AccoCard__properties-column",
+        "div"
+      ],
+      "priority": 1
+    }
+  ]
+}
